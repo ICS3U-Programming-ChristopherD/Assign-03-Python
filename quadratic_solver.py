@@ -5,7 +5,7 @@
 # This program calculates the roots of quadratic equations
 
 from termcolor import colored
-from root_calculator import root_solver
+import root_calculator
 
 # Defining the color selection function
 def color_selection():
@@ -135,6 +135,8 @@ def main():
                 print(colored("You did not enter a number", color))
 
     # Calls the root solver function to solve the quadratic
+    from root_calculator import root_solver
+
     root_solver(a, b, c)
 
 
