@@ -5,7 +5,6 @@
 # This module is used to calculate the solutions of a quadratic.
 
 
-from termcolor import colored
 from logging import root
 import math
 
